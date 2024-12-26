@@ -1,0 +1,31 @@
+body {
+  background: rgb(204, 204, 204);
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  position: relative;
+}
+
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+/* 인쇄용 스타일*/
+@page {
+  size: 21cm 29.7cm;
+  margin: 0mm;
+}
+
+* {
+  font-family: '', sans-serif;
+  font-weight: 500;
+}
