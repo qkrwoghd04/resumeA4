@@ -8,6 +8,5 @@
 ### 사용법
 
 ```bash
-git clone https://github.com/qkrwoghd04/resumeA4
-
+git clone https://github.com/qkrwoghd04/resumeA4.git
 ```
